@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quintessential&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-family: "Quintessential", serif;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-family: "Quintessential", serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+}
+
+.home {
+    font-family: "Quintessential", serif;
+    background: url(img/home.png) no-repeat;
+    /* background: url('home.png') no-repeat; */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-family: "Fjalla One", serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: aquamarine;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: aqua;
+}
+
+.btn-box a:hover {
+    /* color: black; */
+    /* transform: scale(105%); */
+    /* box-shadow: 0px 0px 20px aqua; */
+    transform: translateY(-5px);
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 150px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.home-sci a:hover {
+    /* transform: scale(110%); */
+    box-shadow: 0px 0px 20px aqua;
+}
+
+.about {
+    height: 100vh;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+    font-family: "Quintessential", serif;
+}
+
+.about img {
+    width: 350px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.about img:hover{
+    box-shadow: 10px 10px 20px aqua;
+}
+
+.about .text {
+    padding: 0 10%;
+    margin-bottom: 100px;
+
+}
+
+.about h2 {
+    font-size: 46px;
+    font-family: "Fjalla One", serif;
+}
+
+.about h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: aqua;
+}
+
+.about p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.about .text .btn-about button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-family: "Fjalla One", serif;
+    border: none;
+    transition: .3s;
+
+}
+
+.btn-about button:hover {
+    box-shadow: 0px 0px 20px aqua;
+
+}
+
+/* skill */
+
+
+.skill {
+    height: 100vh;
+    background-color: rgb(72, 72, 72);
+    /* display: flex; */
+    
+}
+
+
